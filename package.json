@@ -1,0 +1,15 @@
+{
+  "name": "sample-ui-automation-project",
+  "version": "1.0.0",
+  "description": "This is my first cypress project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurabh Dhingra",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
