@@ -27,6 +27,8 @@ describe ("Verify search Product test cases", function() {
         })
 
         cy.get("@allProductItems").each(($el, index, $list) => {
+
+            cy.wrap($el).scrollIntoView()
             
             cy.log("Index : " + index + " and the product details are - "+ $el.text())
 
